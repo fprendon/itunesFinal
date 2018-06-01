@@ -1,0 +1,130 @@
+header {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.overlay {
+	display: none;
+	position: fixed;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-size: 55px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 28px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+li {
+	display: grid;
+	padding: 10px;
+	width:auto;
+	align-content: space-between;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.center-auto {
+	margin: 0 auto;
+}
+
+
+
+.nueva-busqueda {
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+}
+
+.nueva-busqueda .form-group {
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+
+.nombre-artista input,
+
+
+.content {
+	height: 100%;
+	width: 100%;
+}
+
+button {
+	padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.buttons button {
+	display: inline-block;
+}
+
+footer {
+	display: inline-block;
+	font-size: 20px;
+	align-content: center;
+	background-color: black;
+	color: white;
+	height: 100px;
+	width: 100%;
+}
+
+footer h3 {
+	padding: 15px;
+}
+
+footer p {
+	padding: 15px;
+}
